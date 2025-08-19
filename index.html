@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <button id="toggle-theme">🌙 Dark Theme</button>
+        </div>
+        <h1>To-Do List</h1>
+        <div class="form">
+            <input id="todo-input" type="text" placeholder="Add a new task!"/>
+            <button id="add-btn">Add</button>
+        </div>
+        <div>
+            <button id="clear-all-btn" style="margin-top: 10px;">
+                Limpar todas as tarefas
+            </button>
+        </div>
+        <div class="filters">
+            <button data-filter="all" class="filter-btn">All</button>
+            <button data-filter="pending" class="filter-btn">Pendent</button>
+            <button data-filter="done" class="filter-btn">Conluded</button>
+        </div>
+        <ul id="todo-list"></ul>
+        <p id="mensagem-feedback" style="display: none;"></p>
+        <p id="mensagem-vazia" style="display: none; text-align: center; color: gray;">
+            No task found.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
