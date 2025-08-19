@@ -6,7 +6,7 @@ Includes dark mode, filtering, localStorage, editing, and clean UI.
 # 👤 Author
 João Pedro Souto
 📍 Utrecht, Netherlands
-💼 LinkedIn(https://www.linkedin.com/in/jo%C3%A3o-pedro-souto-4943a7199/)
+💼 [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-pedro-souto-4943a7199/)
 
 ## 🔗 Live Demo
 
