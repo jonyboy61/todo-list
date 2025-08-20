@@ -66,7 +66,7 @@ function addTask(text, done = false, save = true) {
       const novoTexto = inputEdit.value.trim();
 
       if (novoTexto === "") {
-        mostrarMensagem("O texto não pode ficar vazio.");
+          mostrarMensagem("Cannot be empty.");
         li.replaceChild(span, inputEdit);
         return;
       }
@@ -93,7 +93,7 @@ function addTask(text, done = false, save = true) {
 
       originalText = novoTexto; // Atualiza a referência
       saveTasks();
-      mostrarMensagem("Tarefa editada!");
+      mostrarMensagem("Task Updated!");
     }
   });
 
