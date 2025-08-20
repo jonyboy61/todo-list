@@ -19,7 +19,7 @@ function handleAddTask() {
   }
 
   addTask(task);
-  mostrarMensagem("Tarefa adicionada!")
+  mostrarMensagem("Task added!")
   input.value = "";
 }
 
